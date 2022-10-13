@@ -1,0 +1,81 @@
+* {
+    text-decoration: none;
+    margin: 0px;
+    padding-inline-start: 0px;
+    scroll-behavior: smooth;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Open Sans',sans-serif;
+    background-color: #252020;
+    scroll-behavior: smooth;
+}
+
+section {
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.page3{
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    background-image: url("../img/3.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.tbl-next2{
+    font-size: 30px;
+    top: 79%;
+    right: 15%;
+    position: absolute;
+    font-weight: bold;
+    color: white;
+    border: 2px solid #252020;
+    border-radius: 20px;
+    padding: 2px 10px;
+    text-decoration: none;
+}
+
+.tbl-next2:hover{
+    background-color: #252020;
+    transition: 150ms;
+}
+
+.pict{
+    height: 100vh;
+    width: 80%;
+    margin-top: 100px;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    justify-content: space-around;
+    display: contents;
+}
+
+.pict img{
+    color:#2C3A47;
+    position: relative;
+    width: 20px;
+    height: 30px;
+}
+
+.foto{
+    flex-basis: 50%;
+    margin: 10px;
+    min-width: 20%;
+    box-shadow: 0 0 30px #2C3A47;
+    border-radius: 10px;
+}
+
+.foto img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}

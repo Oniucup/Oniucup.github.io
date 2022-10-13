@@ -1,0 +1,69 @@
+html, body{
+    height: 100vh;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Open Sans',sans-serif;
+}
+
+.home{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-bottom: 50px;
+    text-align: center;
+    background-image: url("../Ultah/img/1.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.tbl-sambut{
+    font-size: 20px;
+    bottom: 12%;
+    left: 33%;
+    position: absolute;
+    font-weight: bold;
+    color: black;
+    border: 1px solid #1b1f24;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.tbl-sambut:hover{
+    background: #1b1f24;
+    color: goldenrod;
+    transition: 300ms;
+}
+
+/*tampilan 2*/
+.page2{
+    height: 100%;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    background-image: url("../Ultah/img/2.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.tbl-next1{
+    font-size: 30px;
+    top: 95%;
+    left: 20%;
+    position: absolute;
+    font-weight: bold;
+    color: #8b6519;
+    border-radius: 20px;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.tbl-next1:hover{
+    background: beige;
+    color: goldenrod;
+    transition: 300ms;
+}
